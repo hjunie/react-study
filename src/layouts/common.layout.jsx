@@ -22,9 +22,9 @@ export default function CommonLayout() {
 
     return (
         <div>
-             <CommonHeader />
+             {/*<CommonHeader />*/}
             <Outlet />
-             <CommonFooter />
+             {/*<CommonFooter />*/}
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import {useEffect} from "react";
 import {Outlet, useLocation} from "react-router-dom";
-// import CommonHeader from "@/layouts/inc/header/common.header";
-// import CommonFooter from "@/layouts/inc/footer/common.footer";
+import CommonFooter from "@/layouts/inc/footer/common.footer.jsx";
+import CommonHeader from "@/layouts/inc/header/common.header.jsx";
 
 export default function CommonLayout() {
 
@@ -22,9 +22,9 @@ export default function CommonLayout() {
 
     return (
         <div>
-            {/* <CommonHeader /> */}
+             <CommonHeader />
             <Outlet />
-            {/* <CommonFooter /> */}
+             <CommonFooter />
         </div>
     )
 }

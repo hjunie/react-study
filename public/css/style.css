@@ -144,3 +144,9 @@ body {
   left: 50%;
   transform: translate(-50%, -55%);
 }
+
+.err {
+  font-size: 11px;
+  color: #EC7991;
+  border-bottom: 2px !important;
+}

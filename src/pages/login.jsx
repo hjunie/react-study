@@ -20,6 +20,7 @@ function Login() {
                    <div className="input-group mb-20">
                       <label>아이디</label>
                       <input type="text" placeholder="아이디" />
+                      <div className="err">아이디를 입력해 주세요.</div>
                    </div>
 
                    <div className="input-group">
@@ -31,6 +32,8 @@ function Login() {
                               <button type="button" className="eye"><img src="../images/🦆 icon _remove red eye_.svg" alt="비밀번호 보기" width="15px"/>
                               </button>
                           </div>
+                              <div className="err">비밀번호를 입력해 주세요.</div>
+
                       </div>
                    </div>
 

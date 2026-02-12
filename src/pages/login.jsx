@@ -17,9 +17,9 @@ function Login() {
            <div className="login-container">
                <div className="login-box">
                    <h2>Login</h2>
-                   <div className="input-group">
+                   <div className="input-group mb-20">
                       <label>아이디</label>
-                      <input type="text" />
+                      <input type="text" placeholder="아이디" />
                    </div>
 
                    <div className="input-group">
@@ -27,20 +27,18 @@ function Login() {
                          <label>비밀번호</label>
 
                           <div className="password-box">
-                             <input type="password" />
-                              <button type="button">👁</button>
+                             <input type="password" placeholder="비밀번호"/>
+                              <button type="button" className="eye"><img src="../images/🦆 icon _remove red eye_.svg" alt="비밀번호 보기" width="15px"/>
+                              </button>
                           </div>
                       </div>
                    </div>
 
                    <div className="login-options">
-                      <label>
-                        <input
-                          type="checkbox"
-                          checked={autoLogin}
-                          onChange={(e) => setAutoLogin(e.target.checked)}
-                        />
-                          자동로그인
+                      <label className="auto-login">
+                        <input type="checkbox" />
+                        <span className="custom-check"></span>
+                              자동로그인
                       </label>
 
                       <div className="links">

@@ -2,6 +2,9 @@ body {
     margin: 0;
 } 
 
+.input-group {
+  margin-bottom: 8px;
+}
 
 .login-container {
   height: 100vh;
@@ -41,7 +44,7 @@ body {
 .input-group label {
   display: block;
   font-size: 14px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   color: #000000;
 }
 
@@ -52,6 +55,7 @@ body {
   border-radius: 6px;
   background-color: #EFEFEF;
   box-sizing: border-box;
+  height: 48px;
 }
 
 .login-options {
@@ -149,6 +153,7 @@ body {
   font-size: 11px;
   color: #EC7991;
   border-bottom: 2px !important;
+  margin-top: 8px;
 }
 
 .id-row {
@@ -176,4 +181,50 @@ body {
   display: flex;              /* ⭐ 핵심 */
   align-items: center;        /* 세로 가운데 */
   justify-content: center;    /* 가로 가운데 */
+}
+
+.phonenumber {
+  display: flex;
+  gap: 10px;
+}
+
+.phonenumber input {
+  flex: 1;
+  height: 48px;
+  padding: 0 14px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+}
+
+.phonenumber button {
+  width: 100px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: #64B5F6;
+  color: white;
+
+  display: flex;              /* ⭐ 핵심 */
+  align-items: center;        /* 세로 가운데 */
+  justify-content: center;    /* 가로 가운데 */
+}
+
+.pinnumber {
+  position: relative;
+  width: 100%;
+}
+
+.pinnumber input {
+  width: 100%;
+  padding-right: 60px;   /* ⭐ 타이머 자리 확보 */
+}
+
+.timer {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 13px;
+  color: #555;
 }

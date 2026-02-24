@@ -81,7 +81,9 @@ function Join() {
 
                           <div className="phonenumber">
                              <input type="phonenumber" placeholder="휴대폰 번호"/>
+                             <button className="phonenumber">재요청</button>
                           </div>
+
                               <div className="err">휴대폰 번호를 다시 확인해 주세요.</div>
                       </div>
                    </div>
@@ -92,6 +94,7 @@ function Join() {
 
                           <div className="pinnumber">
                              <input type="pinnumber" placeholder="인증번호 확인"/>
+                             <span className="timer">03:00</span>
                           </div>
                               <div className="err">인증번호 입력 시간이 초과되었습니다.</div>
                       </div>

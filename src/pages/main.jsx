@@ -3,5 +3,5 @@ export default function Main() {
             <>
              메인
             </>
-    )
+    )   
 }

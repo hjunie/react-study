@@ -150,3 +150,30 @@ body {
   color: #EC7991;
   border-bottom: 2px !important;
 }
+
+.id-row {
+  display: flex;
+  gap: 10px;
+}
+
+.id-row input {
+  flex: 1;
+  height: 48px;
+  padding: 0 14px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+}
+
+.id-row button {
+  width: 100px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: #64B5F6;
+  color: white;
+
+  display: flex;              /* ⭐ 핵심 */
+  align-items: center;        /* 세로 가운데 */
+  justify-content: center;    /* 가로 가운데 */
+}

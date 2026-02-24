@@ -3,6 +3,7 @@ import CommonLayout from "@/layouts/common.layout";
 
 import Main from "@/pages/main";
 import Login from "@/pages/login";
+import Join from "@/pages/Join.jsx";
 
 
 const router = createBrowserRouter([
@@ -12,7 +13,9 @@ const router = createBrowserRouter([
             // 메인
             { index: true, element: <Main /> },
             // 로그인
-            { path: 'login', element: <Login /> }
+            { path: 'login', element: <Login /> },
+            // 회원가입
+            { path: 'join', element: <Join /> },
         ]
     }
 ]);

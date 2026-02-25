@@ -33,10 +33,6 @@ body {
   font-size: 15px;
 }
 
-.login-box h2 {
-  display: none;
-}
-
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -177,18 +173,17 @@ body {
   border: none;
   background: #64B5F6;
   color: white;
-
-  display: flex;              /* ⭐ 핵심 */
+  display: flex;              /* 핵심 */
   align-items: center;        /* 세로 가운데 */
   justify-content: center;    /* 가로 가운데 */
 }
 
-.phonenumber {
+.phone-number {
   display: flex;
   gap: 10px;
 }
 
-.phonenumber input {
+.phone-number input {
   flex: 1;
   height: 48px;
   padding: 0 14px;
@@ -197,27 +192,26 @@ body {
   background: #eee;
 }
 
-.phonenumber button {
+.phone-number button {
   width: 100px;
   height: 48px;
   border-radius: 8px;
   border: none;
   background: #64B5F6;
   color: white;
-
-  display: flex;              /* ⭐ 핵심 */
+  display: flex;              /* 핵심 */
   align-items: center;        /* 세로 가운데 */
   justify-content: center;    /* 가로 가운데 */
 }
 
-.pinnumber {
+.pin-number {
   position: relative;
   width: 100%;
 }
 
-.pinnumber input {
+.pin-number input {
   width: 100%;
-  padding-right: 60px;   /* ⭐ 타이머 자리 확보 */
+  padding-right: 60px;   /* 타이머 자리 확보 */
 }
 
 .timer {

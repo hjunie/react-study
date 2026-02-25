@@ -5,7 +5,6 @@ import Main from "@/pages/main";
 import Login from "@/pages/login";
 import Join from "@/pages/Join.jsx";
 
-
 const router = createBrowserRouter([
     {
         element: <CommonLayout />,
